@@ -1,3 +1,13 @@
+# TDD
+The hacking project semaine deux
+```
+Clonez ce repo et suivez les instructions.
+```
+
+Travail réalisé en pair programming par Quentin (@Dremsis) et Yannis (@Yannis).<br/>
+Vous trouverez, ci-dessous, le README original.
+
+
 Test First Ruby -- RSpec 3 Edition
 ==========
 
