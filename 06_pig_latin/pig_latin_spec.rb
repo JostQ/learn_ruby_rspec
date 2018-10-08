@@ -67,6 +67,13 @@ describe "#translate" do
 
   # Test-driving bonus:
   # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
+  it "translate capitalized words are still capitalized" do
+      s = translate("Je suis une Petite Carotte")
+      expect(s).to eq("Ejay uissay uneay Etitepay Arottecay")
+  end
   # * retain the punctuation from the original phrase
-
+  it "translate with the ponctuation" do
+      s = translate("Demain, Je serais une Grosse patate Verte!")
+      expect(s).to eq("Emainday, Ejay eraissay uneay Ossegray atatepay Ertevay!")
+  end
 end
